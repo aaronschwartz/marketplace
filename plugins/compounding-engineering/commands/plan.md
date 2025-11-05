@@ -13,10 +13,10 @@ Transform feature descriptions, bug reports, or improvement ideas into well-stru
 ### 1. Repository Research & Context Gathering
 
 <thinking>
-First, I need to understand the project's conventions and existing patterns, leveraging all available resources and use paralel subagents to do this.
+First, I need to understand the project's conventions and existing patterns, leveraging all available resources and use parallel subagents to do this.
 </thinking>
 
-Runn these three agents in paralel at the same time:
+Run these three agents in parallel at the same time:
 
 - Task repo-research-analyst(feature_description)
 - Task best-practices-researcher (feature_description)
@@ -24,10 +24,10 @@ Runn these three agents in paralel at the same time:
 
 **Reference Collection:**
 
-- [ ] Document all research findings with specific file paths (e.g., `app/services/example_service.rb:42`)
+- [ ] Document all research findings with specific file paths (e.g., `app/services/example_service.ts:42`)
 - [ ] Include URLs to external documentation and best practices guides
 - [ ] Create a reference list of similar issues or PRs (e.g., `#123`, `#456`)
-- [ ] Note any team conventions discovered in `CLAUDE.md` or team documentation
+- [ ] Note any team conventions discovered in `AGENTS.md` or team documentation
 
 ### 2. Issue Planning & Structure
 
@@ -43,7 +43,6 @@ Think like a product manager - what would make this issue clear and actionable? 
 
 **Stakeholder Analysis:**
 
-- [ ] Identify who will be affected by this issue (end users, developers, operations)
 - [ ] Consider implementation complexity and required expertise
 
 **Content Planning:**
@@ -83,14 +82,10 @@ Select how comprehensive you want the issue to be:
 
 ## MVP
 
-### test.rb
+### test.ts
 
-```ruby
-class Test
-  def initialize
-    @name = "test"
-  end
-end
+```typescript
+test('Test login', async () => {})
 ```
 
 ## References
@@ -303,11 +298,11 @@ Apply best practices for clarity and actionability, making the issue easy to sca
 ```markdown
 # Good example with syntax highlighting and line references
 
-\`\`\`ruby
+\`\`\`typescript
 
-# app/services/user_service.rb:42
+# app/services/user_service.ts:42
 
-def process_user(user)
+function processUser(user)
 
 # Implementation here
 
@@ -341,7 +336,6 @@ end \`\`\`
 - [ ] Links and references are working
 - [ ] Acceptance criteria are measurable
 - [ ] Add names of files in pseudo code examples and todo lists
-- [ ] Add an ERD mermaid diagram if applicable for new model changes
 
 ## Output Format
 
