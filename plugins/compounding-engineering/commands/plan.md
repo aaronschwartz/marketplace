@@ -84,7 +84,7 @@ Select how comprehensive you want the issue to be:
 
 ### test.ts
 
-```typescript
+```tsx
 test('Test login', async () => {})
 ```
 
@@ -298,7 +298,7 @@ Apply best practices for clarity and actionability, making the issue easy to sca
 ```markdown
 # Good example with syntax highlighting and line references
 
-\`\`\`typescript
+\`\`\`tsx
 
 # app/services/user_service.ts:42
 
