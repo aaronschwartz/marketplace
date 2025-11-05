@@ -18,7 +18,7 @@ First, I need to understand the project's conventions and existing patterns, lev
 
 Run these three agents in parallel at the same time:
 
-- Task repo-research-analyst(feature_description)
+- Task repo-research-analyst (feature_description)
 - Task best-practices-researcher (feature_description)
 - Task framework-docs-researcher (feature_description)
 
